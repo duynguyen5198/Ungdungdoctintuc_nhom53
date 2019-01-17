@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_marginBottom="-100dp"
+        android:src="@drawable/forceground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/checkboxThree"
+
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"/>
+    <CheckBox
+        android:id="@+id/checkboxTwo"
+        android:layout_above="@+id/checkboxThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="16dp"/>
+
+    <CheckBox
+        android:id="@+id/checkboxOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/checkboxTwo"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="58dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true" />
+
+    <SeekBar
+        android:id="@+id/seekbarThree"
+        android:progressDrawable="@android:color/transparent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:thumb="@drawable/ob3"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/checkboxThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <SeekBar
+        android:id="@+id/seekbarTwo"
+        android:progressDrawable="@android:color/transparent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="30dp"
+        android:thumb="@drawable/ob2"
+        android:layout_above="@+id/checkboxThree"
+        android:layout_toRightOf="@+id/checkboxTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <SeekBar
+        android:id="@+id/seekbarOne"
+        android:progressDrawable="@android:color/transparent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="65dp"
+        android:thumb="@drawable/ob1"
+        android:layout_above="@+id/checkboxTwo"
+        android:layout_toRightOf="@+id/checkboxOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp" />
+    <TextView
+        android:id="@+id/txtDiem"
+        android:layout_margin="20dp"
+        android:text="100"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/buttonPlay"
+        android:background="@null"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/buttonRestart"
+        android:background="@null"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/lnBacktoHotro_game"
+        android:layout_width="84dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:paddingLeft="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/gradient_back">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quay lại"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="22sp"
+            android:src="@drawable/goright_icon"
+            android:layout_marginLeft="5dp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

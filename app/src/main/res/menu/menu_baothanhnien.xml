@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item android:title="Tin mới nhất"
+        android:id="@+id/itmenu_tinmoi_tn"
+        ></item>
+    <item android:title="Đời sống"
+        android:id="@+id/itmenu_doisong_tn"
+        ></item>
+    <item android:title="Thế giới"
+        android:id="@+id/itmenu_thegioi_tn"
+        ></item>
+    <item android:title="Giáo dục"
+        android:id="@+id/itmenu_giaoduc_tn"
+        ></item>
+    <item android:title="công nghệ"
+        android:id="@+id/itmenu_congnghe_tn"
+        ></item>
+    <item android:title="Sức khỏe"
+        android:id="@+id/itmenu_suckhoe_tn"
+        ></item>
+    <item android:title="Quốc phòng"
+        android:id="@+id/itmenu_quocphong_tn"
+        ></item>
+    <item android:title="Giải trí"
+        android:id="@+id/itmenu_giaitri_tn"
+        ></item>
+
+</menu>

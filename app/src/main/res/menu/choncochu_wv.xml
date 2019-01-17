@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Nhỏ"
+        android:id="@+id/sizeNho"
+        ></item>
+    <item android:title="Vừa"
+        android:id="@+id/sizeVua"
+        ></item>
+    <item android:title="Lớn"
+        android:id="@+id/sizeLon"
+        ></item>
+
+</menu>

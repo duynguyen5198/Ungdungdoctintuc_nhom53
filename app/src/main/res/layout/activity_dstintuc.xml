@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_gradient_list1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/manhinhdanhsach">
+
+    <LinearLayout
+        android:id="@+id/lnQuayvemain"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/gradient_back"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:src="@drawable/goleft_icon"
+            android:layout_marginLeft="6dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:text="quay về"
+
+            android:textSize="12dp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tvTheloai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:text="Thể loại"
+        android:textColor="#f02"
+        android:textSize="30sp" />
+
+    <ListView
+        android:id="@+id/lvDanhsachtin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp" />
+
+</RelativeLayout>
